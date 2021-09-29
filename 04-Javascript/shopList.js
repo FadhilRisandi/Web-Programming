@@ -16,7 +16,8 @@ btnAddItem.addEventListener('click', (event) =>  {
     const btnDelete = document.createElement('button');
     const counter = document.createElement('button');
     
-  
+    var count = 1
+    counter.textContent = count;
 
     if (item === '') {
         alert("Item Name can't be blank");
@@ -26,9 +27,11 @@ btnAddItem.addEventListener('click', (event) =>  {
     
       // WARN: Check for duplication
       if (database.has(item)) {
-        alert(`You already have ${item}`);
-        counter.textContent = counter.textContent + '1';
-        inputItem.value = '';
+        const itemCounter = document.getElementById(counter);
+        count = Number(itemCounter);
+        itemCounter.textContent = (count + 1);
+        console.log(itemCounter)
+        inputItem.value ='';
         inputItem.focus();
         return;
        
@@ -45,8 +48,7 @@ btnAddItem.addEventListener('click', (event) =>  {
       btnDelete.textContent = 'Delete';
       
       // NOTE: The counter should be dynamicly show how much do we have for this item
-  
-      counter.textContent = 5;
+     
      
     
       // NOTE: Combine elements

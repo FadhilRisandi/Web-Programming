@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+html, body {
+
+    background: var(--color-secondary);
+  }
+  .theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+  }
+  .theme-dark {
+    --color-primary: #8010db;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+  }
+
+ .buttons{
+   color: var(--font-color);
+   background: var(--color-primary);
+   padding: 10px 20px;
+   border: 0;
+   border-radius: 5px;
+ }
+
+main{
+   padding: 20px;
+   overflow : auto ;
+  }
+  
+  h1{
+     font-family: 'Quicksand', sans-serif;
+     color:white;
+     font-size: 65px;
+     font-weight: bold;
+     text-shadow: 4px 4px 3px rgb(165, 161, 182);
+  }
+  
+  .MainPanel {
+     font-size: 20px;
+     padding: 60px;
+     background-color: #00c8eb;
+     text-align: center;
+     color: white;
+  }
+  
+  nav a {
+     font-family: 'Quicksand', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     text-decoration: none;
+     color: white;
+  }
+  
+  nav a:hover {
+     font-weight: bolder;
+  }
+  
+  body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+   }
+  
+  #content{
+     float: left;
+     width: 75%;
+  }
+
+   h2,h3 {
+      color: #00a2c6
+   }
+  
+  p  #first {
+     text-indent: 2em;
+  }
+  
+  .card{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     padding: 20px;
+     margin-top: 20px;
+  
+  }
+  
+  .Profile header{
+     text-align: center;
+  }
+  
+  .Profile img{
+     width: 200px;
+  }
+  
+  aside{
+     float: right;
+     width: 25%;
+     padding-left: 20px;
+  }
+  
+   footer {
+      padding: 20px;
+      color: white;
+      background-color: #00a2c6;
+      text-align: center;
+      font-weight: bold;
+   }
+   .theme-light {
+      --color-primary: #0060df;
+      --color-secondary: #fbfbfe;
+      --color-accent: #fd6f53;
+      --font-color: #000000;
+    }
+    .theme-dark {
+      --color-primary: #17ed90;
+      --color-secondary: #243133;
+      --color-accent: #12cdea;
+      --font-color: #ffffff;
+    }
+
+  @media screen and (max-width: 1000px) {
+     #content,
+     aside {
+         width: 100%;
+         padding: 0;
+     }
+  }
