@@ -10,19 +10,19 @@ html, body {
     --font-color: #000000;
   }
   .theme-dark {
-    --color-primary: #8010db;
+    --color-primary: #17ed90;
     --color-secondary: #243133;
     --color-accent: #12cdea;
     --font-color: #ffffff;
   }
-
- .buttons{
-   color: var(--font-color);
-   background: var(--color-primary);
-   padding: 10px 20px;
-   border: 0;
-   border-radius: 5px;
+ .buttons {
+    color: var(--font-color);
+    background: var(--color-primary);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
  }
+ 
 
 main{
    padding: 20px;
@@ -55,6 +55,7 @@ main{
   
   nav a:hover {
      font-weight: bolder;
+     
   }
   
   body {
