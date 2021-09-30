@@ -12,6 +12,10 @@
     font-size: 20px;
     border-radius: 8px;
     margin-right: 8px;
+    
+}
+.list-item > button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 .list-item > p {
     margin-right: 10px;
@@ -35,7 +39,7 @@ head{
     border-radius: 8px;
     color :black;
     background:white;
-    font-size: 18px;
+    font-size: 18px; ;
 }
 .inputBox {
     width: 300px;
