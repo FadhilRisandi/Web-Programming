@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 * {
-    font-family: 'Quicksand';
+    font-family: 'Gemunu Libre';
     box-sizing: border-box;
     
 }
+.list-item{
+    margin-bottom: 8px;
+}
+.list-item > p ,button{
+    display: inline;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.list-item > p {
+    margin-right: 10px;
+    font-size: 20px;
+}
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
    color:white;
    font-size: 65px;
    font-weight: bold;
@@ -24,12 +36,14 @@ head{
     border-radius: 8px;
     color :black;
     background:white;
+    font-size: 18px;
 }
 .inputBox {
     width: 300px;
     height: 40px;
     size: 20px;
     border-radius:  8px;
+    font-size: 18px;
 }
 body{
     margin: 0;
