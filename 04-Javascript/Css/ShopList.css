@@ -13,6 +13,9 @@
     border-radius: 8px;
     margin-right: 8px;
 }
+.list-item > button {
+     box-shadow: 0 4px 8px 0 rgba(49, 44, 44, 0.2); 
+}
 .list-item > p {
     margin-right: 10px;
     font-size: 20px;
