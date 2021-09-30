@@ -15,8 +15,8 @@
     
 }
 .list-item > button {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0 4px 8px 0 rgba(49, 44, 44, 0.2); 
+
 }
 .list-item > p {
     margin-right: 10px;
