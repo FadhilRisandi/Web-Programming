@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Quicksand';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.Main{
+    font-size: 20px;
+    padding: 40px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+h1{
+    color:white;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgb(165, 161, 182);
+}
+h2{
+    font-family: 'Quicksand';
+    color:white;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgb(165, 161, 182);
+}
+
+body {
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png');
+}
+.foto{
+    padding: 2px;
+}
+
+.btnku {
+    padding : 20px;
+}
+
+ 
+footer {
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+ }
